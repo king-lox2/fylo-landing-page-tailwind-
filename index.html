@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html class="">
+  <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Tailwind fylo Website Practice</title>
+ <link rel="stylesheet" href="css/main.css"  />
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+  </head>
+  <body>
+     <!--SECTION 1 -->
+ <section class=" container mx-auto p-7 " >
+   <!-- FLEX CONTAINER -->
+   <nav class="flex  items-center justify-between">
+     <!--HEADER -->
+     <a href="#" class="text-bold">
+   <img class="w-16  md:w-28" src="Img/logo.svg" alt="" />
+     </a>
+     <!--NAV~LINKS -->
+     
+     <ul class="flex font-normal font-typo  space-x-4 md:space-x-6 text-sm md:text-lg">
+       <li class="hover:border-b-2 hover:border-red-400">
+     <a class="" href="#">Features</a>
+       </li>
+       <li class="hover:border-b-2 hover:border-red-400">
+   <a class="" href="#">Team</a>
+       </li>
+       <li class="hover:border-b-2 hover:border-red-400">
+   <a class="" href="#">Sign in</a>
+       </li>
+     </ul>
+    
+   </nav>
+ </section>
+   <!--SECTION 2 -->
+ <section class=" container mx-auto px-7  ">
+     <!-- FLEX CONTAINER -->
+   <div class="flex  py-10 md:py-24 items-center md:justify-between space-y-6 flex-col-reverse md:flex-row md:space-x-2 md:space-y-0">
+   <!--HEADING PARAGRAPH INPUT  BUTTON-->
+     <div class="flex mt-12 md:mt-0 space-y-6  flex-col text-center md:text-left ">
+       <!--HEADING & PARAGRAPH-->
+       <div class="space-y-6 ">
+       <h1 class="font-bold  font-body text-2xl leading-9 md:text-3xl md:max-w-md md:font-typo ">
+         All your files in one secure location, accessible anywhere.
+       </h1>
+       <p class="font-body font-normal text-sm md:max-w-md">
+  Fylo stores your most important files in one secure location. Access them wherever you need, share and collaborate with friends, family, and co-workers.
+       </p>
+     </div>
+      <!-- BUTTON INPUT -->
+      <div class="flex flex-col mt-6 md:flex-row md:space-y-1 md:space-x-2 ">
+        <!-- INPUT -->
+        <form class="font-typo">
+     <input type="email" placeholder="Enter your email ..." class="outline-1 outline-black  outline rounded-sm md:px-6 px-12 py-1.5 text-sm " />
+        </form>
+        
+       <div class="mt-4 font-typo " >
+          <a href="#" class=" border-2 text-sm px-24 md:px-4 py-1.5 rounded md:rounded-sm  cursor-pointer border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white hover:font-medium transition duration-500 ease-in-out">Get Started</a>
+        </div>
+      </div>
+     </div>
+     <!-- IMAGE -->
+     <div class="md:w-1/2">
+       <img class="w-1/8" src="Img/illustration-1.svg" alt='img' />
+     </div>
+   </div>
+ </section>
+
+      <!-- SECTION 3 -->
+ <section id="section3">
+      <!-- FLEX CONTAINER -->
+      <div class="flex px-7 container mx-auto  py-20  mt-12 flex-col md:flex-row-reverse">
+        <!-- IMAGE -->
+        <div class="flex md:w-1/2  justify-center md:justify-end">
+     <img class="w-50 md:w-1/8 " src="Img/illustration-2.svg" alt="illustration-2" /> 
+        </div>
+  <!-- HEADING PARAGRAPH TESTIMONIALS -->
+        <div class="flex items-center md:items-start md:w-5/6 mt-20 text-center space-y-6 md:text-left flex-col">
+        <!-- HEADING & PARAGRAPH-->
+       <div class="md:-mt-20 space-y-6">
+      <h1 class="font-typo text-lg  md:text-3xl  font-bold">
+        Stay productive, wherever you are </h1>
+        
+     <div class="space-y-6 md:space-y-3"> 
+        <p class="font-body font-normal text-sm md:max-w-md ">
+    Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs.
+        </p>
+        
+          <p class="font-body font-normal text-sm md:max-w-md">
+  Securely share files and folders with friends, family and colleagues for 
+  live collaboration. No email attachments required!
+        </p>
+    <!-- See how fylo works for md  -->  
+  <div class="font-body hidden md:inline-block flex flex-col  items-center md:items-start  text-sm font-normal ">
+       <p class="text-moderateCyan border-b-2 border-moderateCyan">
+        See how Fylo works <span><i class="far fa-arrow-alt-circle-right"></i></span>
+      <p>
+      </div>   
+        </div>
+       </div>
+  <!-- See how fylo works for mobile  -->
+      <div class="font-body md:hidden  flex flex-col  items-center md:items-start  text-sm font-normal ">
+       <p class="text-moderateCyan border-b-2 border-moderateCyan">
+        See how Fylo works <span><i class="far fa-arrow-alt-circle-right"></i></span>
+      <p>
+      </div>   
+    <!-- TESTIMONIALS  --> 
+ <div class="flex flex-col w-3/4 md:w-1/2    rounded border-cyan-500  border-2 py-4 px-6 bg-cyan-500 shadow-md text-white">
+   <!--   --> 
+   <div class="space-y-3" >
+     <div class="flex  justify-start" >
+   <i class="fas fa-quote-left "></i>
+   </div>
+     <!-- Heading -->
+     <div class="flex text-left">
+   <h1 class="text-sm font-medium max-w-xs " >
+  Fylo has improved our team productivity by an order of magnitude. Since 
+  making the switch our team has become a well-oiled collaboration machine. </h1>
+  </div>
+      </div>
+  <!-- TESTIMONIAL IMG & PARAGRAPH -->
+  <div class="flex items-center space-x-2 mt-2  flex-row">
+    <div class="">
+     <img class="rounded-full w-12" src="Img/avatar-testimonial.jpg" alt="avatar" />
+    </div>
+    
+    <div class="flex text-left font-typo flex-col">
+      <div class="text-sm font-bold">
+      <h1 >Kyle Burton</h1>
+      </div>
+      <div class="text-xs">
+       <p>Founder & CEO, Huddle</p>
+      </div>
+    </div>
+  </div>
+    </div>
+        </div>
+      </div>
+ </section>
+     <!-- C . T . A  SECTION  -->
+  <section class="bg-desaturatedBlue py-24">
+   <!-- C . T . A   FLEX CONTAINER -->
+   <div class="flex px-7 container mx-auto flex-col md:flex-row  items-center  md:justify-between space-y-6 md:space-y-0 ">
+    <!-- HEADING & PARAGRAPH --> 
+    <div class="flex flex-col space-y-3  text-white ">
+      <h1 class="font-bold text-center md:text-left text-lg md:text-2xl font-typo">
+        Get early access today 
+      </h1>
+      
+      <p class="font-body text-center md:text-left md:max-w-md text-sm font-normal md:text-md">
+        It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.
+  
+      </p>
+    </div>
+     
+     <div class="">
+    <!-- BUTTON INPUT -->
+  <div class="flex flex-col space-y-6  ">
+        <!-- INPUT -->
+    <form class="font-typo">
+    <input type="email" placeholder="Enter your email ..." class="outline-1 outline-none outline rounded-sm md:px-12 px-12 py-1.5 text-sm " />
+        </form>
+        
+    <div class="font-typo " >
+    <a href="#" class=" border-2 text-sm px-24 md:px-8 py-1.5 font-semibold rounded md:rounded-sm  cursor-pointer border-blue-600 text-stone-900 bg-white hover:bg-blue-600 hover:text-white hover:font-medium transition duration-500 ease-in-out">Get Started</a>
+        </div>
+      </div>
+     </div>
+   </div>
+ </section>
+    <!-- FOOTER SECTION -->
+ <footer class="bg-veryDarkBluee py-10 ">
+   <!-- FLEX SECTION -->
+ <div class="flex px-7 space-y-11 container mx-auto text-white items-start justify-between flex-col md:flex-row">
+ <!-- FOOTER LOGO & EMAIL & CONTACT -->
+    <div class="flex flex-col space-y-9 md:space-y-3">
+      <!-- FOOTER LOGO -->
+     <div>
+     <img class="w-28" src="Img/logo.svg" alt="" />
+     </div>
+     <!-- EMAIL & CONTACT-->
+   <div class="flex flex-col space-y-2 font-body ">
+       
+   <div class="flex items-center space-x-4">    
+   <!-- CONTACT LOGO -->
+      <div >
+  <img class="w-4" src="Img/icon-phone.svg" alt="contact" /> 
+      </div>
+   <!-- CONTACT NUMBER -->
+     <div class="text-sm font-medium">
+      <p>
+        <span>Phone:</span>
+         +234 8149116213
+      </p>
+     </div>
+     </div>
+     
+     <div class="flex items-center space-x-4 ">
+     <!--EMAIL LOGO -->
+       <div >
+  <img class="w-4" src="Img/icon-email.svg" alt="contact" /> 
+      </div>
+   <!-- EMAIL -->
+     <div class="text-sm font-medium">
+      <p>
+        <span>Email:</span>
+        benedicteverist00@gmail.com
+      </p>
+     </div>
+     </div>
+  </div>
+   </div> 
+   
+   
+   <!-- FOOTER LINKS 1-->
+ <div class="flex flex-col space-y-3 items-start font-body text-md ">
+   
+   <div >
+     <a href="#">About Us</a>
+   </div>
+   
+         <div >
+     <a href="#">Jobs</a>
+   </div>
+   
+      <div >
+     <a href="#">Press</a>
+   </div>
+   
+      <div>
+     <a href="#">Blog</a>
+   </div>
+ 
+   </div>
+   
+      <!-- FOOTER LINKS 2-->
+ <div class="flex flex-col space-y-3 items-start font-body text-md  ">
+   
+   <div >
+     <a href="#">Contact Us</a>
+   </div>
+   
+         <div >
+     <a href="#">Terms</a>
+   </div>
+   
+      <div >
+     <a href="#">Privacy policy</a>
+   </div>
+   </div>  
+   
+   <!-- SOCIAL ICONS -->
+   <div class="flex flex-row  md:justify-start  space-x-4">
+   <div class="text-2xl text-blue-600">
+     <a href="" >
+    <i class="fab fa-facebook"></i>
+     </a>
+   </div>
+    <div class="text-2xl text-sky-500">
+     <a href="">
+  <i class="fab fa-twitter"></i>
+     </a>
+   </div>
+    <div class="text-2xl text-amber-500">
+     <a href="">
+   <i class="fab fa-instagram"></i> 
+     </a>
+   </div>
+   </div>
+   </div>
+   
+   <!--- just for fun 😊 ⬇️ -->
+   <div class="flex flex-col items-center pt-10">
+     <a href="">
+     <svg xmlns="http://www.w3.org/2000/svg" class="h-9 w-11 text-yellow-400 " viewBox="0 0 20 20" fill="currentColor">
+  <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.707l-3-3a1 1 0 00-1.414 0l-3 3a1 1 0 001.414 1.414L9 9.414V13a1 1 0 102 0V9.414l1.293 1.293a1 1 0 001.414-1.414z" clip-rule="evenodd" />
+</svg>
+     </a>
+   </div>
+  <!-- for fun --> 
+ </footer>
+  </body>
+</html>
